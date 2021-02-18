@@ -43,7 +43,7 @@ if len(quartet) == 16:
 	basedoutput += "="
 
 print("Sins commited:", sin_count)
-newfile = open("based64_" + sys.argv[1], "w+")
+newfile = open("based64_" + sys.argv[1], "w+", encoding='utf-8')
 newfile.write(basedoutput)
 file.close()
 newfile.close()
